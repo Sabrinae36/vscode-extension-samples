@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Checkout Actions
         uses: actions/checkout@v2
-        with:
+        with:https://github.com/WICG/trust-token-api.git
           repository: 'microsoft/vscode-github-triage-actions'
           ref: stable
           path: ./actions
